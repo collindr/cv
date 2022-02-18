@@ -3,95 +3,72 @@
 
 <head>
   <meta charset="utf-8">
-  <title>👨‍💻Collin's Website</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <title>Collin's Personal site</title>
+  <link rel="stylesheet" href="css\styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans&family=Oswald:wght@200&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td><img src="collin.png" alt="Collin Profile Picture"></td>
-      <td>
-        <h1>Collin D. Rowe</h1>
-        <em>
-          <p>Genius at <strong><a href="https://www.apple.com/retail/centurycity/">Apple Century City</a></strong></p>
-        </em>
-        <p> I have been with Apple for almost 6 years and now learning to code.</p>
-      </td>
-    </tr>
-  </table>
-  <hr size="2" noshade==0>
-  <br>
-  <h3>Work Experience</h3>
-  <table border="1" cellspacing="3">
-    <thead>
-      <tr>
-        <th>Employer</th>
-        <th>Work</th>
-        <th>Dates</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Apple</td>
-        <td>Genius</td>
-        <td>July 2018 – Current 2022</td>
-      </tr>
-      <tr>
-        <td>Apple</td>
-        <td>QA Engineer Internship</td>
-        <td>June 2019 – Nov. 2019 - June 2021 – Nov. 2021</td>
-      </tr>
-      <tr>
-        <td>Apple</td>
-        <td>Technical Expert</td>
-        <td>Nov. 2017 – July 2018</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <hr size="2" noshade==0>
-  <h3>Education</h3>
-  <ul>
-    <li>High School Diploma, <a href="https://www.tusd.org/schools/north-high-school">North Torrance High School</a>: 2012</li>
-    <li>iOS Cetification, Apple: 2017</li>
-    <li>MacOS Cetification, Apple: 2018</li>
-  </ul>
-  <hr size="2" noshade==0>
-  <br>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tbody>
-      <tr>
-        <td>Mac Repair</td>
-        <td>🌟🌟🌟🌟🌟</td>
-        <td>iOS Repair</td>
-        <td>🌟🌟🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>Black Box Testing</td>
-        <td>🌟🌟🌟🌟🌟</td>
-        <td>Terminal</td>
-        <td>🌟🌟🌟🌟🌟</td>
-      </tr>
-      <tr>
-        <td>HTML5</td>
-        <td>🌟🌟🌟</td>
-        <td>Python</td>
-        <td>🌟🌟</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>🌟</td>
-        <td>JavaScript</td>
-        <td>🌟</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <h3><a href="hobbies.html">Hobbies</a> <a href="contacts.html">Contact Me</a></h3>
-  <hr size="2" noshade==0>
 
+  <div class="top-container">
+    <img class="top-cloud" src="images\cloud.png" alt="cloud=img ">
+    <h1>Collin Rowe</h1>
+    <h2>Apple <span class="Engineer">Genius</span></h2>
+    <img class="bottom-cloud" src="images\cloud.png" alt="">
+    <img src="images\mountain.png" alt="">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images\collin.png" alt="">
+      <h2>Hello there!</h2>
+      <p>I am intermediate level Web Developer and practicing my skills on this website. I currently work as a Apple Genius in LA.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="" src="images\code.gif" alt="">
+        <h3>Programming Languages</h3>
+        <p>HTML5 🌟🌟🌟🌟 , CSS 🌟🌟🌟</p>
+        <p>Python 🌟🌟🌟 , JavaScript 🌟</p>
+      </div>
+      <div class="skill-row">
+        <img class="" src="images\itsupport.webp" alt="">
+        <h3>Repair</h3>
+        <p>Mac Repair 🌟🌟🌟🌟🌟 , iOS Repair 🌟🌟🌟🌟🌟</p>
+        <p>Black Box Testing 🌟🌟🌟🌟🌟 Terminal 🌟🌟🌟🌟</p>
+      </div>
+    </div>
+    <hr>
+    <div class="hobbies">
+      <h2>Hobbies</h2>
+      <div class="hobbies-row">
+        <img class="" src="images\fallout.gif" alt="" />
+        <h3>Gaming with friends</h3>
+        <p>My bestfriend and I have been gaming since we were kids. It's what sparked my interest in building computers and learning programming.</p>
+      </div>
+
+    </div>
+    <div class="contact-me">
+      <h2>Get in touch.</h2>
+      <p>Feel free to reach out to me for any questions or software opportunities.</p>
+      <a class="btn" href="mailto:collindr@outlook.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/collindrowe/">LinkedIn</a>
+    <p>© 2022 Collin Rowe.</p>
+  </div>
 </body>
 
 </html>
