@@ -18,6 +18,11 @@ h3 {
   color: #5EAAA8
 }
 
+hr {
+    border: 20px dotted #ff0000;
+    border-style: none none dotted;
+}
+
 body {
   font-size: 80%;
   margin: 0;
@@ -28,6 +33,9 @@ body {
 
 p {
   line-height: 2;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+
 }
 
 .profile {
@@ -123,19 +131,14 @@ p {
   text-decoration: underline;
 }
 
-.top-ship {
-  float: right;
-  width: 10%;
-}
 
 .bottom-ship {
-  float: left;
   width: 20%;
-  left: 10px;
+  left: 20%;
   bottom: 10px;
 }
 
 .city {
-  width: 100%;
-  margin: 0 auto auto 0;
+  width: 30%;
+  margin: auto auto auto auto;
 }
